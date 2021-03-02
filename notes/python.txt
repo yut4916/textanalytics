@@ -1,0 +1,16 @@
+Python Notes:
+
+Feb 23, 2021
+- python is a scripting language
+- we put our code into functions so that the user can control when it's run
+	- syntax for creating functions:
+		def functionName():
+- we want to have one main function (?)
+- syntax for if statements:
+	if (conditional expression):
+- white space in python is important (google PEP 8 to learn more)
+	- 4 spaces = 1 tab
+- dunder = double underscore (ex: __name__)
+	- not sure I understand, but it's some sort of specific variable 
+
+

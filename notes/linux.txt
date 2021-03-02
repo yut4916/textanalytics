@@ -1,0 +1,7 @@
+# Linux Notes
+
+Note: instead of git pull, use git fetch and git merge
+
+
+
+
