@@ -1,0 +1,7 @@
+# March 4 Lecture Notes
+
+split function -- breaks data into smaller pieces
+	- lets us insert smaller chunks of code into our sqlite database (for troubleshooting/testing)
+
+
+

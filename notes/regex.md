@@ -20,11 +20,12 @@ Special characters:
 	- so [lmnop] is equivalent to [l-p]
 
 
-\w -- matches any "word" character, i.e. [a-zA-Z0-9]
+\w -- matches any "word" character, i.e. [a-zA-Z0-9_]
 \W -- matches anything NOT a word character
 \s -- matches any whitespace character, i.e. [\t\n \r]
 \S -- matches any non-whitespace character
 	- note: does not include full stop
+\d -- matches any numeric value
 
 ^ -- when used in a character class, negates it
 	- ex: ^\s = \S

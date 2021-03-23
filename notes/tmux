@@ -1,0 +1,28 @@
+# tmux notes
+
+C-b -- control + b (prefix key)
+
+C-b % -- create left/right pane
+C-b " -- create top/bottom pane
+C-b <arrow key> -- switch panes
+C-d -- close pane
+
+C-b c -- create new tmux window
+C-b p -- switch to previous window
+C-b n -- switch to next window
+C-b <number> -- switch to window with that number
+
+C-b d -- detach current tmux session
+
+tmux ls -- list which tmux sessions are running
+tmux attach -t 0 -- attach to specific tmux session
+tmux new -s sessionName -- create new tmux session and name it
+tmux rename-session -t 0 newSessionName -- rename existing session
+
+C-b ? -- get list of all available tmux commands
+
+C-b z -- make a pane fullscreen (same to undo)
+C-b , -- rename the current window
+C-b C-<arrow key> -- resize pane in direction of <arrow key>
+
+
